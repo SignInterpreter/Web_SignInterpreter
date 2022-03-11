@@ -10,6 +10,6 @@ def dev_w_us():
     st.text("install the dependencies detailed in the requirements file ")
     st.text("and after that you will be able to create your own dataset with the sign that you prefer, running the command ")
     rutaimg = os.path.join(os.getcwd(),"img") 
-    image = Image.open(rutaimg+'\getdata.jpg')
+    image = Image.open(rutaimg+'/getdata.jpg')
     st.image(image, caption='Sunrise by the mountains')
 
